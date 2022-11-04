@@ -5,7 +5,8 @@ const products = [
         category:"reloj",
         description: "SKMEI RELOJ 1146SI HOMBRE",
         price: 43.60,
-        img:"https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1128%2FACCESORIOS%2FSR2119_0_212735806449_35.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=64c9765875a0e0252a127c2eb597d9fc"
+        discont:30.20,
+        img:"https://cdn.shopify.com/s/files/1/0274/8838/7170/products/126760_400x.png?v=1653609885"
     },
     {
         id:2,
@@ -13,7 +14,8 @@ const products = [
         category:"reloj",
         description: "RELOJ GUESS HOMBRE GW0332G1",
         price: 1299,
-        img:"https://home.ripley.com.pe/Attachment/WOP_5/2012278938365/2012278938365_2.jpg"
+        discont:1000.20,
+        img:"https://cdn.shopify.com/s/files/1/0274/8838/7170/products/MB125581_400x.png?v=1621396347"
     },
     {
         id:3,
@@ -21,7 +23,8 @@ const products = [
         category:"reloj",
         description: "SKECHERS RELOJ SR1121 HOMBRE",
         price: 299,
-        img:"https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1128%2FACCESORIOS%2FSR1121_0_212732508432_31.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=72252af5d0f76f8db0d6a30a82c89e6b"
+        discont:200.20,
+        img:"https://cdn.shopify.com/s/files/1/0274/8838/7170/products/E79363101B1E1_400x.png?v=1635350286"
     },
     {
         id:4,
@@ -29,7 +32,8 @@ const products = [
         category:"joya",
         description: "RELISE JUEGO COLLAR ARETE PLATA MARIPOSA",
         price: 194,
-        img:"https://ripleype.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Fimagenes-sellers-mercado-ripley%2F2019%2F10%2F19154202%2FCOYAR36.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=22b44d074f9ba48b8664d08f9925322f"
+        discont:170.20,
+        img:"https://cdn.shopify.com/s/files/1/0274/8838/7170/products/lalique_anillo_1925_10679500_400x.png?v=1598904553"
     },
     {
         id:5,
@@ -37,7 +41,8 @@ const products = [
         category:"accesorio",
         description: "JOYERO CIERVO ORGANIZADOR BLANCO",
         price: 194,
-        img:"https://ripleype.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Fimagenes-sellers-mercado-ripley%2F2021%2F10%2F17035051%2FMI-JRB0319-2.png?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=d7c0367b702acb75e2001f91181e1f37"
+        discont:180.20,
+        img:"https://cdn.shopify.com/s/files/1/0274/8838/7170/products/bvlgari-Anillo-Bzero1-323533-1_400x.png?v=1602869698"
     }
 ]
 

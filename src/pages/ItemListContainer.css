@@ -1,0 +1,11 @@
+
+.title__margin{
+    margin-top:160px ;
+}
+
+.title__main{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .2em;
+}

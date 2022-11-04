@@ -4,16 +4,17 @@ import api from '../api';
 
 const Reloj = () => {
     const [products, setProducts] = useState([])
+
     useEffect(() => {
-        let load = new Promise((res) => {
+        let myPromise = new Promise((res) => {
             setTimeout(() => {
-                res(api.products.filter( x=> x.category === "reloj"))
+                res(api.products.filter( x => x.category === "reloj"))
             }, 2000);
         })
-        load.then((respuesta) => { setProducts(respuesta) }).catch((error) => {
-            //console.log(error)
-        })
+        myPromise.then((respuesta) => { setProducts(respuesta) }).catch((error) => {})
     })
+
+
     return (
         <main>
             <div className="container-fluid p-5 bg-primary text-white text-center">
@@ -21,8 +22,19 @@ const Reloj = () => {
                 <p>Encuentra tus relojes a un super precio!</p>
             </div>
             <div className="container mt-3">
-
-                {products.length == 0 ? <h1>Cargando ..</h1> : <ItemList products={products} />}
+                {
+                    products.length == 0 ? 
+                    (
+                        <div className="d-flex justify-content-center">
+                            <div className="spinner-border" role="status">
+                                <span className="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    ):
+                    (
+                        <ItemList products={products} />
+                    ) 
+                }
             </div>
         </main>
     )

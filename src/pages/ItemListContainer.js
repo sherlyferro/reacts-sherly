@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react"
 import ItemList from "../components/ItemList"
 import api from '../api';
+import './ItemListContainer.css'
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([])
+
     useEffect(() => {
         let load = new Promise((res) => {
             setTimeout(() => {
@@ -14,15 +16,26 @@ const ItemListContainer = () => {
             //console.log(error)
         })
     })
+
     return (
         <main>
-            <div className="container-fluid p-5 bg-primary text-white text-center">
-                <h1>TODOS LOS PRODUCTIS</h1>
-                <p>Encuentra tus productos a un super precio!</p>
+            <div className="container-fluid d-flex justify-content-center title__margin">
+                <h2 className="title__main">RELOJES</h2>
             </div>
             <div className="container mt-3">
-
-                {products.length == 0 ? <h1>Cargando ..</h1> : <ItemList products={products} />}
+                {
+                    products.length == 0 ? 
+                    (
+                        <div className="d-flex justify-content-center">
+                            <div className="spinner-border" role="status">
+                                <span className="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    ) : 
+                    (
+                        <ItemList products={products} />
+                    )
+                }
             </div>
         </main>
     )

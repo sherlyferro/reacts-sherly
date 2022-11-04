@@ -5,12 +5,10 @@ import api from '../api';
 const Detalle = () => {
     const [product, setProduct] = useState("")
     let { id } = useParams();
-    console.log(id)
     useEffect(() => {
         setProduct(api.products.find( x => x.id == id))
     }, [product])
 
-    console.log(product)
     return (
         <main>
             <div className="container-fluid p-5 bg-primary text-white text-center">

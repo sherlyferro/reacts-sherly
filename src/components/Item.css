@@ -1,0 +1,34 @@
+.card__store{
+    cursor: pointer;
+    background-color:  #efefef;
+    border: 0px;
+}
+
+.card__store:hover{
+    transform: scale(1.2);
+    color: #2e2e2e;
+}
+
+.link__store{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.card__text{
+    color: #1c1b1b;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .2em;
+}
+.card__text_discont{
+    color: red;
+    font-size: 12px;
+}
+.card__text_price{
+    color: #6a6a6a;
+    font-weight: 500;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+.card-body{
+    text-align: center;
+}
