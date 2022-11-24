@@ -1,74 +1,83 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .logo {
-    height: 48px;
-    width: 94px;
-    background: url("https://cdn.shopify.com/s/files/1/0274/8838/7170/files/gyg-blanco-chico_100x.png?v=1614329309") no-repeat;
+  height: 48px;
+  width: 94px;
+  background: url("https://cdn.shopify.com/s/files/1/0274/8838/7170/files/gyg-blanco-chico_100x.png?v=1614329309")
+    no-repeat;
 }
 
 .menu--link {
-    margin: 6px 32px;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-weight: 500;
-    color: #FFF;
-    transition: color .2s ease-in-out;
-    letter-spacing: .2em;
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
+  margin: 6px 32px;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
 }
 
 .menu--link:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color:
-        #2e2e2e;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2e2e2e;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 .menu--link:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bg--transparent {
-    background-color: #000;
-    opacity: 0.9;
-    transition: all ease 0.9s;
+  background-color: #000;
+  opacity: 0.9;
+  transition: all ease 0.9s;
 }
 
 .bg--transparent:hover {
-    background-color: #FFF;
-    color: #000;
-    opacity: 0.99;
-    transition: all ease 0.9s;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.99;
+  transition: all ease 0.9s;
 }
 
 .bg--transparent:hover .menu--link {
-    transition: all ease 0.09s;
-    color: #000;
-    
+  transition: all ease 0.09s;
+  color: #000;
 }
 
 .bg--transparent:hover .logo {
-    transition: all ease 0.9s;
-    background: url("https://cdn.shopify.com/s/files/1/0274/8838/7170/files/gyg-negro-chico_100x.png?v=1614329309") no-repeat;
+  transition: all ease 0.9s;
+  background: url("https://cdn.shopify.com/s/files/1/0274/8838/7170/files/gyg-negro-chico_100x.png?v=1614329309")
+    no-repeat;
 }
 
-header{
-    margin-bottom: 116px;
+header {
+  margin-bottom: 116px;
+}
+
+.material-icons {
+  color: rgb(8, 8, 250);
+}
+.material-icons:hover {
+  color: rgb(0, 0, 14);
 }

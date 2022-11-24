@@ -1,4 +1,4 @@
-import './App.css';
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Reloj from './pages/Reloj';
@@ -7,7 +7,7 @@ import Accesorio from './pages/Accesorio';
 import Detalle from './pages/Detalle';
 import Navbar from './components/Navbar';
 import ItemListContainer from './pages/ItemListContainer';
-
+import Footer from './pages/Footer';
 
 function App() {
     return (
@@ -20,6 +20,7 @@ function App() {
                 <Route path='/accesorios' element={<Accesorio/>}/>
                 <Route path='/detalle/:id' element={<Detalle/>}/>
             </Routes>
+            <Footer/>                 
         </BrowserRouter>
     );
 }
