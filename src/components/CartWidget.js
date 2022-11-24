@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function CartWidget() {
   return (
-    <Link to="">
-      {" "}
-      <span class="material-symbols-outlined">shopping_cart</span>
-    </Link>
+    
+    <Link to ="/carrito"><span className="material-icons">shopping_cart</span></Link>
+      
+   
   );
 }
 
