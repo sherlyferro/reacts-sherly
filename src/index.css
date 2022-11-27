@@ -9,3 +9,23 @@
 body {
   background-color: #efefef;
 }
+.title__main{
+  margin-bottom: 30px;
+
+}
+.container{
+  margin-top: 60px;
+}
+.button_detalle{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.tabla{
+  
+  border: 1px solid #110000;
+}
+td, th {
+  border: black 1px solid;
+}

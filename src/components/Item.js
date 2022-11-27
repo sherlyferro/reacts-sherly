@@ -11,7 +11,7 @@ const Item = ({product}) => {
                         <h6 className="card-title card__text">{product.name}</h6>
                         <p className="card_p__text">{product.description}</p>
                         <h6 className="card-title card__text_price">S/ {product.price.toFixed(2)}</h6>
-                        <h6 className="card-title card__text_discont">S/ {product.discont}</h6>
+                        
                     </div>
                 </div>
             </Link>

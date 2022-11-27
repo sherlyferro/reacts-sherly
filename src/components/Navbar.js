@@ -5,7 +5,6 @@ import CartWidget from "./CartWidget";
 const Navbar = () => {
   return (
     <header>
-      
       <div className="fixed-top">
         <div className="container-fluid bg--transparent">
           <div className="d-flex justify-content-center pt-3">
@@ -49,9 +48,8 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                  <CartWidget/>
+                    <CartWidget />
                   </li>
-                  
                 </ul>
               </div>
             </div>
