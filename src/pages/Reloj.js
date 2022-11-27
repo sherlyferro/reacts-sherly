@@ -9,7 +9,7 @@ const Reloj = () => {
         let myPromise = new Promise((res) => {
             setTimeout(() => {
                 res(api.products.filter( x => x.category === "reloj"))
-            }, 2000);
+            }, 1000);
         })
         myPromise.then((respuesta) => { setProducts(respuesta) }).catch((error) => {})
     })

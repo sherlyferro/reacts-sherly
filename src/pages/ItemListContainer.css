@@ -1,14 +1,38 @@
-
-.title__margin{
-    margin-top:160px ;
+.title__margin {
+  margin-top: 160px;
 }
 
-.title__main{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: .2em;
+.title__main {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2em;
 }
-.card_body{
-    margin-top: 50px;
+.card_body {
+  margin-top: 50px;
 }
+.cargando {
+  font-size: 20px;
+}
+
+.carrito_conteiner {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 50px;
+}
+.tabla {
+  text-align: center;
+}
+.button_carrito {
+  background-color: rgb(49, 80, 193);
+  margin-bottom: 20px;
+  width: 120px;
+  border-radius: 5px;
+  color: azure;
+}
+.button_carrito:hover{
+background-color: aliceblue;
+color: black;
+}
+

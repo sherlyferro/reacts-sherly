@@ -13,7 +13,7 @@ const ItemListContainer = () => {
         let load = new Promise((res) => {
             setTimeout(() => {
                 res(api.products)
-            }, 2000);
+            }, 1000);
         })
         load.then((respuesta) => { setProducts(respuesta) }).catch((error) => {
             console.log(error)

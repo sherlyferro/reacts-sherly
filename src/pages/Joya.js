@@ -8,7 +8,7 @@ const Joya = () => {
         let load = new Promise((res) => {
             setTimeout(() => {
                 res(api.products.filter( x=> x.category === "joya"))
-            }, 2000);
+            }, 1000);
         })
         load.then((respuesta) => { setProducts(respuesta) }).catch((error) => {
             //console.log(error)
@@ -22,7 +22,7 @@ const Joya = () => {
             </div>
             <div className="container mt-3">
 
-                {products.length == 0 ? <h1>Cargando ..</h1> : <ItemList products={products} />}
+                {products.length == 0 ? <h1 className="cargando">Cargando ..</h1> : <ItemList products={products} />}
             </div>
         </main>
     )

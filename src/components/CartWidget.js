@@ -1,6 +1,7 @@
 import React, {useEffect, useContext} from "react";
 import { Link } from "react-router-dom";
 import { DataContext } from "../context/DataContext";
+// el carrito incrementa las categorias no los productos //
 
 function CartWidget() {
   const { data } = useContext(DataContext)

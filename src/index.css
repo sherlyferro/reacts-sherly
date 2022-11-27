@@ -9,6 +9,7 @@
 body {
   background-color: #efefef;
 }
+
 .title__main{
   margin-bottom: 30px;
 
@@ -28,4 +29,21 @@ justify-content: center;
 }
 td, th {
   border: black 1px solid;
+}
+.card {
+margin-top: 50px;
+}
+
+.carrito_conteiner{
+  display: flex;
+  justify-content: center;
+  }
+.Footer_container{
+  display: flex;
+  justify-content: space-around;
+ 
+  background: rgb(9, 9, 9);
+ color: #efefef;
+ 
+  
 }

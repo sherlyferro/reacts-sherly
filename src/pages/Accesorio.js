@@ -22,7 +22,7 @@ const Accesorio = () => {
             </div>
             <div className="container mt-3">
 
-                {products.length == 0 ? <h1>Cargando ..</h1> : <ItemList products={products} />}
+                {products.length == 0 ? <h1 className="cargando">Cargando ..</h1> : <ItemList products={products} />}
             </div>
         </main>
     )
