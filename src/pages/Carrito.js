@@ -8,6 +8,7 @@ const Carrito = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [isBuy, setIsBuy] = useState(false);
+
   const changeInputName = (e) => {
     setName(e.target.value);
   };
@@ -20,7 +21,7 @@ const Carrito = () => {
     setIsBuy(true);
     setData({
       ...data,
-      products: [],
+      products: []
     });
   };
 
@@ -36,7 +37,7 @@ const Carrito = () => {
     <div className="carrito_conteiner">
       {!isBuy ? (
         <>
-          <div >consolidado de productos</div>
+          <h2  >Consolidado de productos</h2>
           <table className="tabla">
             <tr>
               <td>Producto</td>
@@ -77,9 +78,9 @@ const Carrito = () => {
           <button  className="button_carrito"  onClick={() => confirmBuy()}>Guardar</button>
         </>
       ) : (
-        <h2>
-          Gracias por tu compra {name} se enviara el detalle de tu compra a{" "}
-          {email}
+        <h2 className="exito_compra">
+          ¡ Gracias por tu compra {name} se enviara el detalle de tu compra a{" "} 
+          {email} !
         </h2>
       )}
     </div>

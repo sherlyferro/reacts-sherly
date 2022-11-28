@@ -47,12 +47,12 @@ const Detalle = () => {
                 </h6>
                 <p className="card_p__text">{product.description}</p>
                 <div className="button_detalle">
-                    <button onClick={()=>onClickMinus()}>-</button>
+                    <button className="button_sumatorio" onClick={()=>onClickMinus()}>-</button>
                     <p>{quantity}</p>
-                    <button onClick={()=>onClickMinusmas()}>+</button>
+                    <button  className="button_sumatorio" onClick={()=>onClickMinusmas()}>+</button>
                 </div>
                 <br></br>
-                <button onClick={()=>addCart()}>Agregar al carrito</button>
+                <button className="button_agregarcarrito" onClick={()=>addCart()}>Agregar al carrito</button>
                 </div>
             </div>
             </div>

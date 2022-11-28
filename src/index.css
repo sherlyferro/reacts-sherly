@@ -10,40 +10,37 @@ body {
   background-color: #efefef;
 }
 
-.title__main{
+.title__main {
   margin-bottom: 30px;
-
 }
-.container{
+.container {
   margin-top: 60px;
 }
-.button_detalle{
-display: flex;
-flex-direction: row;
-justify-content: center;
-
+.button_detalle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.tabla{
-  
+.tabla {
   border: 1px solid #110000;
 }
-td, th {
+td,
+th {
   border: black 1px solid;
 }
 .card {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
-.carrito_conteiner{
-  display: flex;
-  justify-content: center;
-  }
-.Footer_container{
+.Footer_container {
   display: flex;
   justify-content: space-around;
- 
-  background: rgb(9, 9, 9);
- color: #efefef;
- 
+  background: rgb(232, 230, 230);
+  color: #090000;
   
+  
+  
+}
+main{
+  min-height: 100vh;
 }

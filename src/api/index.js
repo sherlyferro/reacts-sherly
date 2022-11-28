@@ -73,21 +73,19 @@ const products = [
   },
   {
     id: 9,
-    name: "ACCESORIO DE JOYAS",
+    name: "ACCESORIO CON PIEDRAS BLANCAS ",
     category: "accesorio",
-    description: "JOYERO CIERVO ORGANIZADOR BLANCO",
-    price: 154,
-
-    img: "https://cdn.shopify.com/s/files/1/0274/8838/7170/products/Anillo-Gucci-Ghost-YBC477339001014-2_300x.png?v=1602183923",
+    description: "VINCHA BLANCA",
+    price: 1154,
+    img: "https://i.pinimg.com/564x/26/84/c3/2684c33b8c90fc319a57063ab3e261fa.jpg",
   },
   {
     id: 10,
-    name: "ACCESORIO DE JOYAS",
+    name: "ACCESORIO CON PIEDRAS DORADAS",
     category: "accesorio",
-    description: "JOYERO CIERVO ORGANIZADOR BLANCO",
-    price: 134,
-
-    img: "https://cdn.shopify.com/s/files/1/0274/8838/7170/products/bvlgari-Anillo-Bzero1-323533-1_400x.png?v=1602869698",
+    description: "VINCHA DORADA",
+    price: 1134,
+    img: "https://i.pinimg.com/564x/89/c3/12/89c312d1edc87f00e567fa61e287d646.jpg",
   },
 ];
 

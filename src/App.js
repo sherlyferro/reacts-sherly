@@ -6,11 +6,7 @@ import Detalle from "./pages/Detalle";
 import Navbar from "./components/Navbar";
 import ItemListContainer from "./pages/ItemListContainer";
 import Footer from "./pages/Footer";
-
 import Carrito from "./pages/Carrito";
-
-
-//falta el iten count para saber cuantos productos tengo y costo//
 
 function App() {
   return (
@@ -24,7 +20,6 @@ function App() {
         <Route path="/detalle/:id" element={<Detalle />} />
         <Route path="/carrito" element={<Carrito />} />
       </Routes>
-      
       <Footer />
     </BrowserRouter>
   );

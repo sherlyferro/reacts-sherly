@@ -18,8 +18,16 @@
 .carrito_conteiner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 500px;
   margin-left: 50px;
+  
+}
+h2{
+margin-top: 20px;
+font-size: 25px;
+margin-bottom: 20px;
+
 }
 .tabla {
   text-align: center;
@@ -30,9 +38,33 @@
   width: 120px;
   border-radius: 5px;
   color: azure;
-}
-.button_carrito:hover{
-background-color: aliceblue;
-color: black;
+ 
 }
 
+.button_sumatorio {
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgb(245, 245, 239);
+
+}
+.button_carrito:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.button_agregarcarrito {
+  background-color: rgb(0, 1, 11);
+  border-radius: 3px;
+  color: aliceblue;
+}
+.button_agregarcarrito:hover {
+  background-color: rgb(249, 249, 251);
+  border-radius: 3px;
+  border: solid 1px rgb(129, 126, 126);
+  color: rgb(1, 9, 16);
+}
+.exito_compra {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
